@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "waitly-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "CORS_ORIGIN": "http://localhost:5173"
+  },
+  "dev": {
+    "port": 8787
+  }
+}
